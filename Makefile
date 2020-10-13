@@ -1,2 +1,2 @@
 signals: signal.c
-	gcc signal.c -o signalab 
+	gcc signal.c timer.h timer.c -o signals
